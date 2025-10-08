@@ -1,10 +1,10 @@
 # S1.5-Java-Utils
 
-## 📄 **Description**
+# 📄 **Description**
 
-### **Level 1**
+## **Level 1**
 
-**Exercise 01 Subject**
+### **Exercise 01 Subject**
 
     Create a class that alphabetically lists the contents of a directory received as a parameter.
 
@@ -18,7 +18,7 @@
 		4. Execute the command 'java Level_01.Exercise01.ListDirEx01.
 		5. You can modify the directoy wich content is going to be printeb in line 11, after File.separator.
 
-**Exercise 02**
+### **Exercise 02**
 
 	Add to the class from the previous exercise the functionality to list a directory tree 
 	with the contents of all its levels (recursively), so that they are printed on screen 
@@ -41,7 +41,7 @@
 	I've instanced a SimpleDateFormat object with the "yyyy-MM-dd HH:mm:ss" pattern, in order
 	to call the object.format() method with converts the epoch long miliseconds in a String of pattern format.
 
-**Exercise 03**
+### **Exercise 03**
 
     Modify the previous exercise. Now, instead of displaying the result on screen, 
 	save the result in a TXT file.
@@ -56,7 +56,7 @@
 		4. Execute the command 'java Level_01.Exercise01.Ex03Main, this will create or override the file output.txt.
 		5. Open "output.txt" to see the result.
 
-**Exercise 04**
+### **Exercise 04**
 
 	Add the functionality to read any TXT file and display its content on the console.
 
@@ -69,13 +69,13 @@
 		file will be stored in a new directories made from package.
 		4. Execute the command 'java Level_01.Exercise01.Ex04Main, this will print in console the content of Text.tx
 
-**Exercise 05**
+### **Exercise 05**
 
 	Now the program must serialize a Java Object to a .ser file and then deserialize it.
 
-### **Level 02**
+## **Level 02**
 
-**Exercise 01**
+### **Exercise 01**
 
 	Execute exercise 3 from the previous level by parameterizing all methods in a configuration file.
 	You can use a Java Properties file, or the Apache Commons Configuration library if you prefer.
