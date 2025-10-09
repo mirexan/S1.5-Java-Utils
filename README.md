@@ -10,13 +10,13 @@
 
 ***Execution instructions***
 
-		1. Open a shell terminal.
-		2. Go to directory with ´´´cd S1.5-Java-Utils/src/main/java/Level_01/Exercise01´´´ command,
-		where Ex01Main.java is located.
-		3. Execute the command ´´´javac -d . Ex01Main.java ListDirEx01.java´´´ to compile and generate a .class file. This
-		file will be stored in a new directories made from package.
-		4. Execute the command ´´´java Level_01.Exercise01.ListDirEx01´´´
-		5. You can modify the directoy wich content is going to be printeb in line 11, after File.separator.
+1. Open a shell terminal.
+2. Go to directory with ´´´cd S1.5-Java-Utils/src/main/java/Level_01/Exercise01´´´ command,
+re Ex01Main.java is located.
+3. Execute the command ´´´javac -d . Ex01Main.java ListDirEx01.java´´´ to compile and generate a .class file. This
+e will be stored in a new directories made from package.
+4. Execute the command ´´´java Level_01.Exercise01.ListDirEx01´´´
+5. You can modify the directoy wich content is going to be printeb in line 11, after File.separator.
 
 ### **Exercise 02**
 
@@ -27,19 +27,19 @@
 
 **Execution instructions**
 
-		1. Open a shell terminal.
-		2. Go to directory with ´´´cd S1.5-Java-Utils/src/main/java/Level_01/Exercise02´´´ command,
-		where Ex02Main.java is located.
-		3. Execute the command ´´´javac -d . Ex02Main.java ListDirEx02.java´´´ to compile and generate a .class file. This
-		file will be stored in a new directories made from package.
-		4. Execute the command ´´´java Level_01.Exercise01.Ex02Main´´´
+1. Open a shell terminal.
+2. Go to directory with ´´´cd S1.5-Java-Utils/src/main/java/Level_01/Exercise02´´´ command,
+where Ex02Main.java is located.
+3. Execute the command ´´´javac -d . Ex02Main.java ListDirEx02.java´´´ to compile and generate a .class file. This
+file will be stored in a new directories made from package.
+4. Execute the command ´´´java Level_01.Exercise01.Ex02Main´´´
 
 **Exercise 02 Observations**
 	
-	´´´lastModified()´´´ is a method form java.io.File that returns a long value representing 
-	the time the file was last modified, measured in milliseconds since the epoch (00:00:00 GMT, January 1, 1970)
-	I've instanced a SimpleDateFormat object with the "yyyy-MM-dd HH:mm:ss" pattern, in order
-	to call the object.format() method with converts the epoch long miliseconds in a String of pattern format.
+´´´lastModified()´´´ is a method form java.io.File that returns a long value representing 
+the time the file was last modified, measured in milliseconds since the epoch (00:00:00 GMT, January 1, 1970)
+I've instanced a SimpleDateFormat object with the "yyyy-MM-dd HH:mm:ss" pattern, in order
+to call the object.format() method with converts the epoch long miliseconds in a String of pattern format.
 
 ### **Exercise 03**
 
@@ -48,13 +48,13 @@
 
 **Execution instructions**
 
-		1. Open a shell terminal.
-		2. Go to directory with ´´´cd S1.5-Java-Utils/src/main/java/Level_01/Exercise03´´´ command,
-		where Ex03Main.java is located.
-		3. Execute the command ´´´javac -d . Ex03Main.java ListDirEx03.java´´´ to compile and generate a .class file. This
-		file will be stored in a new directories made from package.
-		4. Execute the command ´´´java Level_01.Exercise01.Ex03Main´´´, this will create or override the file output.txt.
-		5. Open "output.txt" to see the result.
+1. Open a shell terminal.
+2. Go to directory with ´´´cd S1.5-Java-Utils/src/main/java/Level_01/Exercise03´´´ command,
+where Ex03Main.java is located.
+3. Execute the command ´´´javac -d . Ex03Main.java ListDirEx03.java´´´ to compile and generate a .class file. This
+file will be stored in a new directories made from package.
+4. Execute the command ´´´java Level_01.Exercise01.Ex03Main´´´, this will create or override the file output.txt.
+5. Open "output.txt" to see the result.
 
 ### **Exercise 04**
 
@@ -62,12 +62,12 @@
 
 **Execution instructions**
 
-		1. Open a shell terminal.
-		2. Go to directory with ´´´cd S1.5-Java-Utils/src/main/java/Level_01/Exercise04´´´ command,
-		where Ex04Main.java is located.
-		3. Execute the command ´´´javac -d . Ex04Main.java ListDirEx04.java´´´ to compile and generate a .class file. This
-		file will be stored in a new directories made from package.
-		4. Execute the command ´´´java Level_01.Exercise01.Ex04Main´´´, this will print in console the content of Text.tx
+1. Open a shell terminal.
+2. Go to directory with ´´´cd S1.5-Java-Utils/src/main/java/Level_01/Exercise04´´´ command,
+where Ex04Main.java is located.
+3. Execute the command ´´´javac -d . Ex04Main.java ListDirEx04.java´´´ to compile and generate a .class file. This
+file will be stored in a new directories made from package.
+4. Execute the command ´´´java Level_01.Exercise01.Ex04Main´´´, this will print in console the content of Text.tx
 
 ### **Exercise 05**
 
@@ -75,13 +75,13 @@
 
 **Execution instructions**
 
-		1. Open a shell terminal.
-		2. Go to directory with ´´´cd S1.5-Java-Utils/src/main/java/Level_01/Exercise05´´´command,
-		where Ex04Main.java is located.
-		3. Execute the command ´´´javac -d . Ex05Main.java serialObject.java´´´ to compile and generate a .class file. This
-		file will be stored in a new directories made from package.
-		4. Execute the command ´´´java Level_01.Exercise01.Ex05Main´´´, this will generate a "object.ser" file and also it
-		will print a few messages in console about the execution.
+1. Open a shell terminal.
+2. Go to directory with ´´´cd S1.5-Java-Utils/src/main/java/Level_01/Exercise05´´´command,
+where Ex04Main.java is located.
+3. Execute the command ´´´javac -d . Ex05Main.java serialObject.java´´´ to compile and generate a .class file. This
+file will be stored in a new directories made from package.
+4. Execute the command ´´´java Level_01.Exercise01.Ex05Main´´´, this will generate a "object.ser" file and also it
+will print a few messages in console about the execution.
 
 ## **Level 02**
 
@@ -95,16 +95,16 @@
 
 **Execution instructions**
 
-		1. Open a shell terminal.
-		2. Go to directory with ´´´cd S1.5-Java-Utils/src/main/java/Level_02/Exercise01´´´command,
-		where Ex01Main.java is located.
-		3. Execute the command ´´´javac -d . Ex05Main.java ListDir.java´´´ to compile and generate a .class file. This
-		file will be stored in a new directories made from package.
-		4. Execute the command ´´´java Ex01Main´´´, this will generate a directory "result", inside theres is the
-		"directoryList.txt" file.
-		5. Directory tree path can be changed in Configuration.properties File.
-		The actual path is ```[..] + File.separator + [..] + File.separator```.
-		Level1Directory is the first [..], which means go one directory level back.
+1. Open a shell terminal.
+2. Go to directory with ´´´cd S1.5-Java-Utils/src/main/java/Level_02/Exercise01´´´command,
+where Ex01Main.java is located.
+3. Execute the command ´´´javac -d . Ex05Main.java ListDir.java´´´ to compile and generate a .class file. This
+file will be stored in a new directories made from package.
+4. Execute the command ´´´java Ex01Main´´´, this will generate a directory "result", inside theres is the
+"directoryList.txt" file.
+5. Directory tree path can be changed in Configuration.properties File.
+The actual path is ```[..] + File.separator + [..] + File.separator```.
+Level1Directory is the first [..], which means go one directory level back.
 
 ### **Level 03**
 
