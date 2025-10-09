@@ -145,3 +145,5 @@ Level1Directory is the first ```[..]```, which means go one directory level back
 1. Clone this repo: **>  [git clone](https://github.com/mirexan/S1.2-Exceptions.git)**
 2. Access to the directories in: S1.3-Java-Collections
 3. Follow th execution instructions of each level that figures in the description section.
+
+![img](https://images.unsplash.com/photo-1569235186275-626cb53b83ce?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
