@@ -20,7 +20,7 @@ public class ListDirEx03 {
 					"from Level_01 directory ===\n");
 			listDir3(dir, tab, writer);
 		} catch (IOException e) {
-			throw new RuntimeException("Error : " + e.getMessage());
+			System.out.println("Error : " + e.getMessage());
 		}
 	}
 	private void listDir3(File dir, String tab, PrintWriter writer) {

@@ -9,7 +9,7 @@ public class Ex05Main {
 			object.serialize();
 			object.deSerialize();
 		} catch (IOException e) {
-			throw new RuntimeException(e);
+			System.out.println("Error : " + e.getMessage());
 		}
 	}
 }

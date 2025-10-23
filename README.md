@@ -32,8 +32,9 @@
 re Ex01Main.java is located.
 3. Execute the command ```javac -d . Ex01Main.java ListDirEx01.java``` to compile and generate a .class file. This
 e will be stored in a new directories made from package.
-4. Execute the command ```java Level_01.Exercise01.ListDirEx01```
-5. You can modify the directoy wich content is going to be printeb in line 11, after File.separator.
+4. Execute the command ```java Ex01Main.java ..```, it will print Level_01 content.
+5. You can modify the directoy changin `..` for the directory name, for example ```java Ex01Main.java Level_01/```
+will print the content of that directory.
 
 ### **Exercise 02**
 

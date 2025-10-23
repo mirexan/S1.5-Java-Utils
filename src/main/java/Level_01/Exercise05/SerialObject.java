@@ -31,7 +31,7 @@ public class SerialObject implements Serializable {
 			deSerializedObject = (SerialObject) deSerializedInput.readObject();
 			System.out.println("Object de-serialized with name :" + deSerializedObject.getName());
 		} catch (ClassNotFoundException e) {
-			throw new RuntimeException(e);
+			System.out.println("Error : " + e.getMessage());
 		}
 	}
 }

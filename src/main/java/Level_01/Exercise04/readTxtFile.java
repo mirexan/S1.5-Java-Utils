@@ -13,7 +13,8 @@ public class readTxtFile {
 		}
 		String txt = searchTxt(dir);
 		if (txt.equals("")) {
-			throw new RuntimeException("Error there is no .txt file to read");
+			System.out.println("Error there is no .txt file to read");
+			return ;
 		}
 		try {
 			BufferedReader reader = new BufferedReader(new FileReader(txt));
@@ -22,7 +23,7 @@ public class readTxtFile {
 				System.out.println(line);
 			}
 		} catch (IOException e) {
-			throw new RuntimeException("Error : " + e.getMessage());
+			System.out.println("Error :" + e.getMessage());
 		}
 	}
 	public String searchTxt(File dir) {
